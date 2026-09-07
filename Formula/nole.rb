@@ -1,19 +1,19 @@
 class Nole < Formula
   desc "An Agent-driven terminal knowledge management system"
   homepage "https://github.com/FrostMiKu/NoleBase"
-  version "1.3.0"
+  version "1.3.1"
   if OS.mac? && Hardware::CPU.arm?
-    url "https://github.com/FrostMiKu/NoleBase/releases/download/v1.3.0/nole-aarch64-apple-darwin.tar.xz"
-    sha256 "f3945c83c3d0fe2015d0eee420dd4fd204c41a5b178e40a38536e1ee5a32df49"
+    url "https://github.com/FrostMiKu/NoleBase/releases/download/v1.3.1/nole-aarch64-apple-darwin.tar.xz"
+    sha256 "58f6ee842df0f8b000ab8fa05e519d52d5742619c83f72592cacaff9e382b79d"
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/FrostMiKu/NoleBase/releases/download/v1.3.0/nole-aarch64-unknown-linux-gnu.tar.xz"
-      sha256 "f27779c5f5ecc17ade9135f58396df5e518d873fd1ff932730ed45e2d4f9b25c"
+      url "https://github.com/FrostMiKu/NoleBase/releases/download/v1.3.1/nole-aarch64-unknown-linux-gnu.tar.xz"
+      sha256 "5194aac629bf064ca9e7728305d2c2b03958deab93051c3bd81785a6b7dda636"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/FrostMiKu/NoleBase/releases/download/v1.3.0/nole-x86_64-unknown-linux-musl.tar.xz"
-      sha256 "93bc3c611145dcca5536b8d6aaf8595fd8505a9b236e4e46cade57ecaaac8cb9"
+      url "https://github.com/FrostMiKu/NoleBase/releases/download/v1.3.1/nole-x86_64-unknown-linux-musl.tar.xz"
+      sha256 "425647dbf70f2a6638b7f92d9bc48b58862bcc35516b2fa18d3d152b503d8dda"
     end
   end
   license "MIT"
